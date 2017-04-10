@@ -1,0 +1,1100 @@
+2017/04/05 07:10:53 [emerg] 1#0: directive "location" has no opening "{" in /etc/nginx/sites-enabled/default:14
+2017/04/05 07:17:45 [emerg] 1#0: directive "location" has no opening "{" in /etc/nginx/sites-enabled/default:14
+2017/04/05 07:22:10 [emerg] 1#0: directive "location" has no opening "{" in /etc/nginx/sites-enabled/default:14
+2017/04/05 11:14:10 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:14:49 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:14:55 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:15:02 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:15:25 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:16:02 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:16:44 [emerg] 1#0: "http" directive is not allowed here in /etc/nginx/sites-enabled/default:1
+2017/04/05 11:17:12 [emerg] 1#0: unexpected "}" in /etc/nginx/sites-enabled/default:17
+2017/04/05 11:17:37 [emerg] 1#0: unexpected "}" in /etc/nginx/sites-enabled/default:17
+2017/04/05 11:20:06 [emerg] 1#0: invalid number of arguments in "try_files" directive in /etc/nginx/sites-enabled/default:16
+2017/04/05 11:59:03 [error] 7#0: *1 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 11:59:04 [error] 7#0: *2 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 11:59:05 [error] 7#0: *3 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 11:59:05 [error] 7#0: *4 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 11:59:15 [error] 7#0: *5 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET /enroll.html HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:01:19 [error] 7#0: *6 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET /enroll.html HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:01:20 [error] 7#0: *7 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET /enroll.html HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:01:24 [error] 7#0: *8 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:01:26 [error] 7#0: *9 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:01:28 [error] 7#0: *10 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:03:16 [error] 7#0: *11 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:03:17 [error] 7#0: *12 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/05 12:03:18 [error] 7#0: *13 rewrite or internal redirection cycle while internally redirecting to "/enroll.html", client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2017/04/07 13:22:51 [emerg] 1#0: host not found in upstream "phpfpm" in /etc/nginx/sites-enabled/default:19
+2017/04/09 09:58:15 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:58:16 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:58:17 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:58:18 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:58:18 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:01 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 /usr/share/nginx/html/index.php(36): PDO->__construct('mysql:host=192....', 'root', 'admin')
+#1 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:01 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 /usr/share/nginx/html/index.php(36): PDO->__construct('mysql:host=192....', 'root', 'admin')
+#1 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:01 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 /usr/share/nginx/html/index.php(36): PDO->__construct('mysql:host=192....', 'root', 'admin')
+#1 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:02 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /usr/share/nginx/html/index.php:36
+Stack trace:
+#0 /usr/share/nginx/html/index.php(36): PDO->__construct('mysql:host=192....', 'root', 'admin')
+#1 {main}
+  thrown in /usr/share/nginx/html/index.php on line 36" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:57 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:58 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:58 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:58 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 09:59:59 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:05 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:05 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:06 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 37" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:22 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '$link' (T_VARIABLE), expecting ',' or ';' in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:22 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '$link' (T_VARIABLE), expecting ',' or ';' in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:26 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:27 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:27 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:00:28 [error] 8#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:01:07 [error] 8#0: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:01:07 [error] 8#0: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:01:19 [error] 8#0: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:01:19 [error] 8#0: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:01:19 [error] 8#0: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:03:53 [error] 8#0: *32 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:16:32 [error] 8#0: *34 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:16:33 [error] 8#0: *34 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:16:33 [error] 8#0: *34 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:23:43 [error] 8#0: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:23:44 [error] 8#0: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:24:04 [error] 8#0: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:24:04 [error] 8#0: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:24:04 [error] 8#0: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:09 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:09 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:10 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:10 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:11 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:11 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:11 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:11 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:12 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:12 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:12 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:24 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:24 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:25 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:25:25 [error] 8#0: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:28:47 [error] 8#0: *60 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:28:48 [error] 8#0: *60 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 10:28:48 [error] 8#0: *60 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:51 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:52 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:53 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:53 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:54 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:54 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:54 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:09:54 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:10:30 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:10:31 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:10:31 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:10:38 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:10:39 [error] 8#0: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:24 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:24 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:25 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:26 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:27 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:27 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:28 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:44 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:45 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:46 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:11:46 [error] 8#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:12:44 [error] 8#0: *90 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:12:45 [error] 8#0: *90 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:12:45 [error] 8#0: *90 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:13:40 [error] 8#0: *90 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:13:40 [error] 8#0: *90 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:31 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:32 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:32 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:32 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:33 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:14:33 [error] 8#0: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:15:19 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:15:19 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:15:20 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:15:50 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:15:51 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:16:45 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:16:45 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:16:46 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:17:21 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:17:22 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:02 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:03 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:03 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:16 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:16 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:16 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:18:17 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:32 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:32 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:32 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:33 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:33 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:33 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:33 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:34 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:34 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:34 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:34 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:49 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:19:50 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:20:10 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:20:10 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:20:10 [error] 7#0: *20 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:22:49 [error] 7#0: *37 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:22:49 [error] 7#0: *37 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:33 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:34 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:43 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:44 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:44 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:52 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:53 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:24:53 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:18 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:19 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:19 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:20 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:32 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:32 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:32 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:37 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:37 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:51 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:52 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:25:52 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: link in /usr/share/nginx/html/index.php on line 40
+PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /usr/share/nginx/html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 42" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:19 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:19 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:19 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:27 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:28 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:26:28 [error] 7#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:01 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:01 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:02 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:11 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:11 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:11 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:12 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:13 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:24 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:28:25 [error] 7#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:29:33 [error] 7#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:29:33 [error] 7#0: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:34 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:35 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:35 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:35 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:36 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:36 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:30:36 [error] 7#0: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:13 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:14 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:14 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:15 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:15 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:41 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:41 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:41 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:41 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:56 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:56 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:32:56 [error] 7#0: *89 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 39" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:37 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:38 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:38 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:45 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:46 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:46 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:35:59 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:00 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:29 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:29 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:29 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:34 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:34 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:48 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:49 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:36:49 [error] 7#0: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:37:57 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:37:57 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:37:57 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 38" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:18 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:19 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:19 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:19 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:21 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:21 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:21 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:33 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:38:34 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:26 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:27 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:27 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:27 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:28 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 61" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:33 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:34 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:39:34 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 62" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:23 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 63" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:23 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 63" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:23 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 63" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:24 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 63" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:29 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:29 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:30 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:40 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:40 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:40:41 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:00 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:00 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:00 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:10 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:10 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:11 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:11 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:11 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:11 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:12 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:41:12 [error] 7#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:42:52 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:42:52 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:42:58 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:42:58 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:42:58 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:04 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:04 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:05 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 64" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:28 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:29 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:43:29 [error] 7#0: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:48:57 [error] 7#0: *188 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:48:57 [error] 7#0: *188 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:48:59 [error] 7#0: *188 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:49:00 [error] 7#0: *188 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:46 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:46 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:46 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:47 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:47 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:57 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:57 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:58 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:58 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:51:59 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:52:50 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:52:51 [error] 7#0: *193 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/share/nginx/html/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/index.php on line 65" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100"
+2017/04/09 14:54:17 [emerg] 1#0: host not found in upstream "phpfpm" in /etc/nginx/sites-enabled/default:19
+2017/04/09 15:39:34 [error] 8#0: *122 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET /action_page.php?first=&last= HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/manager.php"
+2017/04/09 15:39:47 [error] 8#0: *122 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET /create.php?first=&last= HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/manager.php"
+2017/04/09 15:44:01 [error] 8#0: *127 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET /create.php?input_name=asdf&input_date=dfdf HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/manager.php"
+2017/04/10 16:21:14 [error] 6#0: *415 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET /function.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/participant.php"

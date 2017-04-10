@@ -1,0 +1,47 @@
+
+nginx:
+        image: tutum/nginx
+        ports:
+                - "80:80"
+        links:
+                - phpfpm
+                - db
+        volumes:
+                - ./nginx/default:/etc/nginx/sites-available/default
+                - ./nginx/default:/etc/nginx/sites-enabled/default
+
+                - ./logs/nginx-error.log:/var/log/nginx/error.log
+                - ./logs/nginx-access.log:/var/log/nginx/access.log
+phpfpm:
+        image: nednisw/php-7.0.12-mysqli-fpm        
+        ports:
+                - "9000:9000"
+        volumes:
+                - ./public:/usr/share/nginx/html 
+                - ./src/php-fpm.conf:/etc/php7/fpm/php-fpm.conf
+        links:
+                - db
+
+
+db:                
+        image: mariadb
+        environment:
+                MYSQL_ROOT_PASSWORD: admin
+        ports:
+                - "3306:3306" 
+        volumes:
+                - /var/lib/mysql
+        
+
+phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        restart: always
+        links:
+                - db
+        ports:
+                - 8181:80
+        environment:
+                PMA_HOST: db
+                PMA_USER: root
+                PMA_PASSWORD: admin
+                PMA_ARBITRARY: 1
