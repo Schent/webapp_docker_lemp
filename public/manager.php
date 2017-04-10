@@ -34,8 +34,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $in_ename = $_POST["input_name"]; 
 $in_date = $_POST["input_date"];
@@ -52,8 +52,8 @@ mysqli_query($link, $sql);
 $del = $_POST["del"];
 if($del){
 	$servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $link = mysqli_connect($servername,$username,$password,$dbname);
 $s = "delete from EVENT where eid = '$del'";
@@ -94,8 +94,8 @@ $result = mysqli_query($link,$s2);
 	<option value="0" class="w3-text-blue"></option>
 	<?php 
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $link = mysqli_connect($servername,$username,$password,$dbname);
 $s = "select * from EVENT";
@@ -134,8 +134,8 @@ while($x = mysqli_fetch_assoc($result)){
 <?php 
 
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 
 $link = mysqli_connect($servername,$username,$password,$dbname);

@@ -29,8 +29,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <?php
 #GET data from SQL -->
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 
 $link = mysqli_connect($servername,$username,$password,$dbname);

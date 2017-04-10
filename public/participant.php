@@ -32,8 +32,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $in_name = $_POST["first"]; 
 $in_surname = $_POST["last"];
@@ -65,8 +65,8 @@ mysqli_query($link, $sql2);
   <select size = "1" name ="in_event" width: 5.5em> 
 <?php
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $link = mysqli_connect($servername,$username,$password,$dbname);
 $s = "select * from EVENT";
@@ -104,8 +104,8 @@ while($x = mysqli_fetch_assoc($result)){
 <?php 
 
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $link = mysqli_connect($servername,$username,$password,$dbname);
 $sql2 = "select USER.uname, USER.usurname,  MAPPING.eid, EVENT.ename from USER,EVENT,MAPPING where MAPPING.uid = USER.uid and MAPPING.eid = EVENT.eid order by eid";
