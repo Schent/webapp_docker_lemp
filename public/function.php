@@ -6,8 +6,8 @@
       $output = fopen("php://output", "w"); 
       fputcsv($output, array('First Name', 'Last Name', 'Event id', 'Event name', 'Date'));  
 $servername = $_SERVER['HTTP_HOST'];
-$username = "cloud";
-$password = "marathon";
+$username = "root";
+$password = "admin";
 $dbname = "marathon";
 $link = mysqli_connect($servername,$username,$password,$dbname);
 $sql2 = "select USER.uname, USER.usurname,  MAPPING.eid, EVENT.ename, EVENT.date from USER,EVENT,MAPPING where MAPPING.uid = USER.uid and MAPPING.eid = EVENT.eid order by eid";
